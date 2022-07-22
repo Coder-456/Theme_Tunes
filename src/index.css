@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color:rgb(107, 97, 97)
+}
+body {
+  background-color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+  max-width: 65%;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: #f1356d;
+}
+
+.choose {
+  display: flex;
+  align-items: center;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.column {
+  padding: 10px;
+  height: 20%;
+  border: 5px solid #333; 
+  border-radius: 15px;
+}
+.left{
+  flex: 80%;
+  background-color: rgb(14, 14, 15);
+}
+
+.right{
+  flex: 20%;
+  background-color: rgb(160, 132, 132);
+  margin-left: 15px;
+}
+
+.button{
+    background: rgb(180, 146, 146);
+    width : 250px;
+    border: 0px;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.button:hover{
+  background: rgb(10, 5, 8);
+  color: rgb(64, 21, 180);
+  font-weight: bold;
+}
+
+.track-items{
+  display: flex;
+  align-items: center;
+  max-width: 70%;
+  margin: 0 auto;
+  margin-left: 15%;
+  margin-right: 20%;
+}
+
+.track-preview{ 
+  border-radius: 5px;
+  border: 10px solid #333;
+}
+
+#track-name{
+  /* font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  color:#8568d4;
+  font-weight: bold;
+}
+
+
+img{
+  border: 2px solid #d8c4ca;
+  border-radius: 5%;
+}
+
+.imagebutton{
+  background-color: white;
+  border:0px;
+  border-radius: 5%;
+}
+
+.imagebutton:hover{
+  background-color:#74565f;
+  border:0px;
+}
+
+.category{
+  float:left;
+  padding: 5px;
+  font-size: large;
+
+}
+
+.categorybtn {
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid white;
+  background: rgb(172, 147, 147);
+  color: #333;
+  color: rgb(49, 0, 185);
+}
+
+.categorybtn:hover{
+  background: rgb(255, 0, 98);
+  color: rgb(237, 233, 248);
+  font-weight: bold;
+}
+
+.top{
+  text-align: left;
+  display: flex;
+}
+
+.spotify{
+  border: 2px solid #d8c4ca;
+  border-radius: 5%;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+p{
+  padding-left: 15px;
+}
+
+p h1{
+  color:rgb(190, 139, 224);
+}
+
+p small b{
+  color:green;
+}
