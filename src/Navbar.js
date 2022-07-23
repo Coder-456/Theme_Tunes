@@ -2,7 +2,7 @@ function Navbar()
 {
     return (
         <nav className="navbar">
-            <h1> Theme &lt;/&gt; Tracks </h1>
+            <h1> Theme &lt;/&gt; Tunes </h1>
         </nav>
     )
 }
