@@ -12,9 +12,7 @@ function Choose() {
     const [token, setToken] = useState('');  
     const [featuredplaylist, setFeaturedPlaylist] = useState([]);
     const [categories, setCategories] = useState([]);
-    const [playlist, setPlaylist] = useState({selectedPlaylist: '', listOfPlaylistFromAPI: []});
     const [tracks, setTracks] = useState([]);
-    const [trackDetail, setTrackDetail] = useState(null);
 
     useEffect(() => {
 
