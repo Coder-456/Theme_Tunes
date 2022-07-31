@@ -10,5 +10,5 @@ Click on a theme from the list of categories(Themes) to view related playlists.
 Click on a playlist to view the songs. 
 Click on the song icon to open song on spotify.
 
-<Developed by Harini/>
+Developer - Harini
 
